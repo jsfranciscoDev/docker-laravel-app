@@ -1,0 +1,32 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.1
+2 info using node@v22.4.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/var/www/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm run dev
+7 verbose argv "run" "dev"
+8 verbose logfile logs-max:10 dir:/var/www/.npm/_logs/2024-07-03T11_18_42_767Z-
+9 verbose logfile /var/www/.npm/_logs/2024-07-03T11_18_42_767Z-debug-0.log
+10 silly logfile done cleaning log files
+11 verbose stack Error: command failed
+11 verbose stack     at promiseSpawn (/usr/local/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:22:22)
+11 verbose stack     at spawnWithShell (/usr/local/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:124:10)
+11 verbose stack     at promiseSpawn (/usr/local/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:12:12)
+11 verbose stack     at runScriptPkg (/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/run-script-pkg.js:77:13)
+11 verbose stack     at runScript (/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/run-script.js:9:12)
+11 verbose stack     at #run (/usr/local/lib/node_modules/npm/lib/commands/run-script.js:130:13)
+11 verbose stack     at async RunScript.exec (/usr/local/lib/node_modules/npm/lib/commands/run-script.js:39:7)
+11 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+11 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+12 error path /var/www
+13 error command failed
+14 error signal SIGTERM
+15 error command sh -c vite
+16 verbose cwd /var/www
+17 verbose os Linux 5.15.153.1-microsoft-standard-WSL2
+18 verbose node v22.4.0
+19 verbose npm  v10.8.1
+20 verbose exit 1
+21 verbose code 1
+22 error A complete log of this run can be found in: /var/www/.npm/_logs/2024-07-03T11_18_42_767Z-debug-0.log
